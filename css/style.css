@@ -3,11 +3,7 @@ body {
    width: 1060px;
    font-family: 'Open Sans', sans-serif;
 }
-.clearfix:after {
-   content: ' ';
-   clear: both;
-   display: block;
-}
+
 /*  HEADER  */
 
 header {
@@ -96,11 +92,10 @@ header {
 }
 .container__content__p { 
    width: 625px;
-   box-sizing: border-box;
    margin: 37px 29px 0 24px;
    font-size: 13.33px;
    font-weight: 400;
-   line-height: 20px;
+   line-height: 21.33px;
    letter-spacing: 0px;
    color: #2c2b2b;
 }
@@ -137,4 +132,9 @@ footer {
 }
 .footer__navbar__a:hover {
    text-decoration: underline;
+}
+.clearfix:after {
+   content: ' ';
+   clear: both;
+   display: block;
 }
