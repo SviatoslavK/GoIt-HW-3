@@ -1,9 +1,10 @@
 body {
-   margin: 0 auto;
-   width: 1060px;
    font-family: 'Open Sans', sans-serif;
 }
-
+.wrapper {
+   margin: 0 auto;
+   width: 1060px;
+}
 /*  HEADER  */
 
 header {
@@ -80,15 +81,14 @@ header {
    width: 678px;
    margin-left: 46px;
 }
-.container__content__frame {
-   border: 1px solid #c9c9c9;
-}
 .container__content_img {
    height: 307px;
    width: 500px;
-   margin: 47px auto;
+   padding: 47px 89px;
    background-image: url(../img/image.png);
    background-position: center center;
+   background-repeat: no-repeat;
+   border: 1px solid #c9c9c9;
 }
 .container__content__p { 
    width: 625px;
